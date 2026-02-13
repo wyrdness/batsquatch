@@ -1,10 +1,8 @@
 {
-  "category": "CRYPTID",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/batsquatch",
     "maintainers": [
       {
@@ -18,259 +16,82 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "batsquatch",
     "name": "Batsquatch",
     "aliases": [],
     "category": "CRYPTID",
-    "subcategory": "Modern American",
+    "subcategory": "Winged",
     "tags": [
-      "humanoid",
-      "winged",
-      "bipedal",
-      "washington-state",
-      "modern-cryptid",
-      "single-sighting",
-      "volcanic-association"
+      "folklore",
+      "mythology"
     ],
-    "status": "inactive",
+    "status": "documented",
     "description": {
-      "summary": "A flying Bigfoot-like creature with bat-like wings, reported once in 1994 near Mount St. Helens, Washington State following volcanic activity.",
-      "full": "Batsquatch is a cryptid reported near Mount St. Helens, Washington in 1994. Described as a nine-foot tall humanoid with blue fur, yellow eyes, a wolf-like muzzle, and large bat-like wings, the creature allegedly flew past a vehicle driven by Brian Canfield shortly after volcanic activity. The creature represents a combination of traditional Bigfoot characteristics with the added feature of wings, similar to other winged humanoid cryptids. Despite the dramatic sighting, Batsquatch remains a one-time report with no subsequent confirmations."
+      "summary": "Batsquatch is a cryptid reported near Mount St.",
+      "full": "Batsquatch is a cryptid reported near Mount St. Helens, Washington in 1994. Described as a nine-foot tall humanoid with blue fur, yellow eyes, a wolf-like muzzle, and large bat-like wings, the creature allegedly flew past a vehicle driven by Brian Canfield shortly after volcanic activity. The creature represents a combination of traditional Bigfoot characteristics with the added feature of wings, similar to other winged humanoid cryptids like Mothman. Despite the dramatic sighting, Batsquatch remains a one-time report with no subsequent confirmations."
     },
     "etymology": {
-      "origin": "Portmanteau combining 'bat' and 'sasquatch' (the regional name for Bigfoot)",
-      "meaning": "Winged sasquatch or bat-winged bigfoot",
-      "first_use": "1994"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Humanoid",
-      "subtype": "Winged",
-      "variant": "Pacific Northwest American"
+      "type": "Winged",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "bigfoot",
-        "name": "Bigfoot",
-        "relationship": "base_form",
-        "description": "Traditional sasquatch without wings"
-      },
-      {
-        "id": "mothman",
-        "name": "Mothman",
-        "relationship": "similar",
-        "description": "Winged humanoid cryptid from West Virginia"
-      },
-      {
-        "id": "owlman",
-        "name": "Owlman",
-        "relationship": "similar",
-        "description": "Winged humanoid from Cornwall, England"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "height": {
-        "min": 2.7,
-        "max": 2.7,
-        "unit": "meters",
-        "confidence": "low"
-      },
-      "weight": {
-        "min": null,
-        "max": null,
-        "unit": "kilograms",
-        "confidence": "unknown"
-      },
-      "coloration": [
-        "blue fur",
-        "yellow eyes"
-      ],
-      "features": [
-        {
-          "feature": "Wings",
-          "description": "Large bat-like wings capable of flight",
-          "frequency": "always"
-        },
-        {
-          "feature": "Fur",
-          "description": "Unusual blue-colored fur covering body",
-          "frequency": "always"
-        },
-        {
-          "feature": "Eyes",
-          "description": "Yellow eyes",
-          "frequency": "always"
-        },
-        {
-          "feature": "Muzzle",
-          "description": "Wolf-like or canine facial structure",
-          "frequency": "always"
-        },
-        {
-          "feature": "Build",
-          "description": "Muscular humanoid body similar to Bigfoot",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Bipedal humanoid with ape-like musculature, bat-like wings, and wolf-like facial features. Stands approximately 9 feet tall."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Flight",
-        "description": "Capable of powered flight using bat-like wings",
-        "frequency": "reported",
-        "evidence_level": "single_report"
-      }
-    ],
+    "abilities": [],
     "behavior": {
       "activity_period": "unknown",
-      "disposition": "neutral",
-      "social_structure": "unknown",
-      "habitat_preference": [
-        "volcanic regions",
-        "mountainous terrain",
-        "forested areas"
-      ],
-      "diet": "unknown",
-      "patterns": [
-        "Associated with volcanic activity",
-        "Flight past vehicle (single report)"
-      ]
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Single sighting near Mount St. Helens, Washington State",
-      "continents": ["North America"],
-      "countries": ["United States"],
-      "regions": [
-        "Washington State",
-        "Mount St. Helens area"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "hotspots": [
-      {
-        "name": "Mount St. Helens",
-        "location": {
-          "description": "Mount St. Helens volcanic region",
-          "country": "United States",
-          "region": "Washington",
-          "coordinates": {
-            "latitude": 46.1914,
-            "longitude": -122.1956
-          }
-        },
-        "sighting_count": 1,
-        "peak_period": "1994",
-        "notes": "Single sighting following volcanic activity"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "1994",
+        "date": "Unknown",
         "circa": true,
-        "source": "Brian Canfield sighting report"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "1994",
-          "description": "Single reported sighting"
-        }
-      ],
-      "seasonal_patterns": "Insufficient data"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Modern cryptid combining traditional Pacific Northwest Bigfoot lore with winged humanoid phenomena",
-      "earliest_accounts": "1994 sighting by Brian Canfield",
-      "folklore_connections": "Related to Bigfoot/Sasquatch traditions of the Pacific Northwest and winged humanoid reports"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "1994",
-        "event": "Brian Canfield sighting",
-        "significance": "Only documented sighting of Batsquatch near Mount St. Helens after volcanic eruption",
-        "source": "Canfield witness report"
-      }
-    ],
-    "modern_era": "Batsquatch remains a curiosity in cryptozoology, representing a one-time report that has entered local folklore but lacks subsequent confirmation or supporting evidence."
+    "timeline": []
   },
-
   "sightings": {
     "statistics": {
-      "total_documented": 1,
+      "total_documented": 0,
       "verified": 0,
-      "disputed": 1,
-      "debunked": 0,
-      "date_range": {
-        "earliest": "1994",
-        "latest": "1994"
-      }
+      "disputed": 0,
+      "debunked": 0
     },
-    "notable": [
-      {
-        "id": "batsquatch-sighting-1994-canfield",
-        "name": "Brian Canfield Sighting",
-        "date": {
-          "value": "1994",
-          "precision": "year"
-        },
-        "location": {
-          "description": "Near Mount St. Helens",
-          "country": "United States",
-          "region": "Washington",
-          "locality": "Mount St. Helens vicinity",
-          "coordinates": {
-            "latitude": 46.1914,
-            "longitude": -122.1956,
-            "precision": "approximate"
-          }
-        },
-        "witnesses": {
-          "count": 1,
-          "types": ["Driver"],
-          "credibility_factors": ["Single witness", "Immediately following volcanic activity"]
-        },
-        "description": "Brian Canfield was driving near Mount St. Helens following a volcanic eruption when he reportedly observed a large, blue-furred, winged creature fly past his vehicle. The creature was described as approximately 9 feet tall with yellow eyes, a wolf-like muzzle, and large bat-like wings. The sighting occurred in the context of volcanic activity at Mount St. Helens.",
-        "conditions": {
-          "weather": "Post-volcanic eruption conditions",
-          "visibility": "Unknown",
-          "time_of_day": "Unknown",
-          "duration": "Brief"
-        },
-        "evidence": [
-          "Witness testimony"
-        ],
-        "credibility": {
-          "rating": "low",
-          "factors": [
-            "Single witness",
-            "No physical evidence",
-            "No subsequent sightings",
-            "Unusual color (blue) inconsistent with known animals"
-          ],
-          "notes": "Single report with no corroboration or follow-up sightings. Timing with volcanic activity may suggest misidentification of debris or atmospheric phenomena."
-        },
-        "sources": [
-          "Witness report from Brian Canfield"
-        ],
-        "featured": true
-      }
-    ],
-    "database_path": null
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
   "evidence": {
     "physical": [],
     "photographic": [],
@@ -278,70 +99,28 @@
     "audio": [],
     "trace": []
   },
-
   "theories": {
-    "paranormal": [
-      {
-        "name": "Volcanic Mutation",
-        "description": "Satirical theory that volcanic activity mutated a Bigfoot specimen",
-        "proponents": [],
-        "evidence_cited": ["Timing with volcanic eruption"]
-      }
-    ],
-    "scientific": [
-      {
-        "name": "Misidentified Large Bird",
-        "description": "Witness misidentified a large bird in post-eruption atmospheric conditions",
-        "proponents": ["Skeptical researchers"],
-        "evidence_cited": ["Poor visibility conditions", "Single sighting", "Unusual color"]
-      }
-    ],
-    "skeptical": [
-      {
-        "name": "Hoax",
-        "description": "Fabricated story for attention or entertainment",
-        "proponents": ["General skeptics"],
-        "evidence_cited": ["No corroborating evidence", "Extraordinary claims", "Single witness"]
-      },
-      {
-        "name": "Misidentification",
-        "description": "Volcanic debris or atmospheric phenomena misinterpreted in stressful conditions",
-        "proponents": ["Skeptical investigators"],
-        "evidence_cited": ["Post-eruption environment", "Brief sighting"]
-      }
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
     "folklore": {
       "traditions": [],
-      "stories": [
-        "1994 Canfield sighting narrative"
-      ],
-      "beliefs": "Modern cryptid legend specific to Mount St. Helens area"
-    },
-    "indigenous": {
-      "cultures": [],
-      "significance": "No known indigenous traditions specific to winged Bigfoot",
-      "sensitivity_note": "Not associated with indigenous beliefs",
-      "respect_guidelines": "Standard archaeological and ecological protocols for Mount St. Helens area"
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
       "literature": [],
       "film_tv": [],
       "games": [],
-      "other": [
-        "Local Pacific Northwest cryptid folklore",
-        "Internet cryptozoology discussions"
-      ]
+      "other": []
     }
   },
-
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "No active research; single historical sighting"
+    "ongoing_studies": "None documented"
   },
-
   "sources": []
 }
