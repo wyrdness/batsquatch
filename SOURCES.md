@@ -1,46 +1,18 @@
-# Sources & References
+# Sources & References — Batsquatch
 
-## Primary Source
+Bibliography compiled from `api.json`. To add a source, edit `api.json` and regenerate.
 
-### Witness Reports
-- Canfield, B. (1994). Batsquatch sighting report. Mount St. Helens area, Washington.
+## Books
 
-## Cryptozoology References
+- Loren Coleman, Jerome Clark. (1999). *Cryptozoology A to Z: The Encyclopedia of Loch Monsters, Sasquatch, Chupacabras, and Other Authentic Mysteries of Nature*. Simon & Schuster. ISBN: 978-0684856025
 
-- Coleman, L. & Huyghe, P. (2003). *The Field Guide to Bigfoot and Other Mystery Primates*. Anomalist Books.
-- Newton, M. (2005). *Encyclopedia of Cryptozoology: A Global Guide*. McFarland & Company.
+## News
 
-## Regional Context
+- C. R. Roberts. (1994-04). *Article on Brian Canfield's encounter (coining 'Batsquatch')*. Tacoma News Tribune
 
-### Mount St. Helens
-- U.S. Geological Survey. Mount St. Helens Volcanic Activity Reports (1994).
-- Cascades Volcano Observatory. Historical eruption data.
+## Websites
 
-### Pacific Northwest Cryptids
-- Blackburn, L. (2012). *The Beast of Boggy Creek*. Anomalist Books.
-- Redfern, N. (2015). *Monsters of the Pacific Northwest*. Llewellyn Publications.
-
-## Winged Humanoid Phenomena
-
-- Coleman, L. (2002). *Mothman and Other Curious Encounters*. Paraview Press.
-- Gerhard, K. (2013). *Encounters with Flying Humanoids*. Llewellyn Publications.
-
-## Online Resources
-
-- Cryptozoology.com. Batsquatch entry. Accessed 2026-01-14.
-- BFRO (Bigfoot Field Researchers Organization). Regional reports database.
+- *Batsquatch*. Cryptid Wiki (Fandom). <https://cryptidz.fandom.com/wiki/Batsquatch>
 
 ---
-
-## Citation Format
-
-When citing this repository:
-
-```
-Wyrdness Project. (2026). Batsquatch. Wyrdness Paranormal Archive.
-https://github.com/wyrdness/batsquatch
-```
-
----
-
-*Last Updated: 2026-01-14*
+_Auto-generated from `api.json`._

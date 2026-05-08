@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/batsquatch",
     "maintainers": [
       {
@@ -16,111 +16,254 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "batsquatch",
     "name": "Batsquatch",
-    "aliases": [],
+    "aliases": [
+      { "name": "Bat-Squatch", "language": "English (variant spelling)", "region": "Pacific Northwest, USA" }
+    ],
     "category": "CRYPTID",
-    "subcategory": "Winged",
+    "subcategory": "Winged humanoid",
     "tags": [
-      "folklore",
-      "mythology"
+      "winged",
+      "humanoid",
+      "cryptid",
+      "pacific-northwest",
+      "washington",
+      "mount-st-helens",
+      "modern-folklore",
+      "20th-century"
     ],
     "status": "documented",
     "description": {
-      "summary": "Batsquatch is a cryptid reported near Mount St.",
-      "full": "Batsquatch is a cryptid reported near Mount St. Helens, Washington in 1994. Described as a nine-foot tall humanoid with blue fur, yellow eyes, a wolf-like muzzle, and large bat-like wings, the creature allegedly flew past a vehicle driven by Brian Canfield shortly after volcanic activity. The creature represents a combination of traditional Bigfoot characteristics with the added feature of wings, similar to other winged humanoid cryptids like Mothman. Despite the dramatic sighting, Batsquatch remains a one-time report with no subsequent confirmations."
+      "summary": "A winged, ape-like cryptid said to inhabit the area around Mount St. Helens and adjacent forests of western Washington. Best known from a 1994 sighting by Brian Canfield in Pierce County.",
+      "full": "Batsquatch is a modern American cryptid associated with the volcanic and forested terrain around Mount St. Helens in Washington State. The name is a portmanteau of 'bat' and 'Sasquatch'. The creature is described as roughly nine feet tall with a humanoid, ape-like body, leathery bat-like wings, blue or purple fur, sharp teeth, yellow eyes, and a wolf- or dog-like muzzle. The most cited encounter is the April 1994 report by 18-year-old Brian Canfield, who said his pickup truck stalled on a remote road south of Mount Rainier and a winged figure landed in front of him before flying away; the Tacoma News Tribune ran the story and reporter C. R. Roberts is credited with coining the name 'Batsquatch'. Older popular accounts also tie the cryptid to the period following the 1980 eruption of Mount St. Helens, but contemporary 1980 reports are not well documented in mainstream sources."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Coined in print in 1994 by Tacoma News Tribune reporter C. R. Roberts following Brian Canfield's reported encounter, blending 'bat' with 'Sasquatch'.",
+      "meaning": "Portmanteau describing a Sasquatch-like being with bat wings.",
+      "first_use": "1994, in C. R. Roberts's reporting in the Tacoma News Tribune (Washington)"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Winged",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Winged humanoid",
+      "subtype": "Bipedal flying cryptid",
+      "variant": "Pacific Northwest"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "mothman", "name": "Mothman", "relationship": "similar", "description": "Winged humanoid cryptid of West Virginia" },
+      { "id": "bigfoot", "name": "Bigfoot", "relationship": "related", "description": "Pacific Northwest hominid cryptid; Batsquatch borrows the 'Sasquatch' element of its name" },
+      { "id": "jersey-devil", "name": "Jersey Devil", "relationship": "similar", "description": "Winged cryptid of the New Jersey Pine Barrens" },
+      { "id": "owlman", "name": "Owlman", "relationship": "similar", "description": "Winged humanoid cryptid of Cornwall, England" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 2.4, "max": 2.9, "unit": "meters", "confidence": "low" },
+      "coloration": ["blue", "purple", "dark grey"],
+      "features": [
+        { "feature": "Leathery bat-like wings", "description": "Large membranous wings, often described as spanning roughly 10–15 m (sometimes exaggerated to 50 ft)", "frequency": "always" },
+        { "feature": "Yellow eyes", "description": "Bright yellow or red glowing eyes", "frequency": "common" },
+        { "feature": "Wolf- or dog-like muzzle", "description": "An elongated, canid-like snout with sharp teeth", "frequency": "common" },
+        { "feature": "Blue / purple fur", "description": "Distinctive blue or violet fur covering the humanoid body", "frequency": "common" },
+        { "feature": "Bird-like feet", "description": "Talon-like or bird-like feet, in contrast to the humanoid body", "frequency": "occasional" }
+      ],
+      "morphology": "An apelike or humanoid body equipped with leathery bat wings and a canid-like head. There is no consistent technical description; the creature exists primarily in eyewitness narrative and pop-culture iconography."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Sustained flight", "description": "Capable of flight using its membranous wings", "frequency": "always", "evidence_level": "reported" },
+      { "ability": "Vehicle interference", "description": "Reported to cause vehicles to stall in its presence (Canfield account)", "frequency": "occasional", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "neutral",
+      "social_structure": "solitary",
+      "habitat_preference": ["volcanic foothills", "remote forest", "mountain backcountry"],
+      "patterns": [
+        "Reports cluster in the Mount St. Helens / Mount Rainier corridor",
+        "Encounters typically brief, on remote roads at night or twilight",
+        "Often associated with vehicle electrical anomalies"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Reports center on the southern Cascades of Washington State, particularly around Mount St. Helens and Mount Rainier in Pierce, Skamania, and Lewis counties.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["Pacific Northwest", "Washington State", "Cascade Range"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Mount St. Helens",
+        "location": {
+          "description": "Stratovolcano in the southern Washington Cascades",
+          "country": "United States",
+          "region": "Washington",
+          "coordinates": { "latitude": 46.1912, "longitude": -122.1944 }
+        },
+        "peak_period": "1980s–present",
+        "notes": "Often cited in popular accounts as the focal point for early Batsquatch lore, post-1980 eruption"
+      },
+      {
+        "name": "Camp One Road / Lake Kapowsin area",
+        "location": {
+          "description": "Remote forested area south of Mount Rainier in Pierce County, Washington",
+          "country": "United States",
+          "region": "Washington",
+          "coordinates": { "latitude": 46.95, "longitude": -122.2 }
+        },
+        "peak_period": "April 1994",
+        "notes": "Site of Brian Canfield's reported 1994 encounter"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1980-05-18",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Popular accounts attribute initial sightings to the period following the 1980 Mount St. Helens eruption"
+      },
+      "peak_activity_periods": [
+        { "period": "April 1994", "description": "Brian Canfield's reported encounter and the coining of the term 'Batsquatch'" },
+        { "period": "2000s–present", "description": "Sporadic reports and online resurgence in cryptid media" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "A modern American cryptid with no clear pre-1980s antecedents in Pacific Northwest Indigenous tradition; emerged in late 20th-century newspaper and word-of-mouth reporting around Mount St. Helens.",
+      "earliest_accounts": "Popular accounts cite reports following the May 18, 1980 eruption of Mount St. Helens; the first widely documented case is Brian Canfield's April 1994 encounter, reported in the Tacoma News Tribune.",
+      "folklore_connections": "Thematically linked to the broader 20th-century 'winged humanoid' cryptid genre, alongside Mothman and the Jersey Devil."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1980-05-18", "event": "Eruption of Mount St. Helens; popular accounts associate the early Batsquatch lore with the eruption's aftermath", "significance": "Provides the geographic and folkloric backdrop", "source": "Popular cryptid sources" },
+      { "date": "1994-04-16", "event": "Brian Canfield reports a winged creature near Camp One Road, Pierce County, Washington; his pickup truck stalls before the encounter", "significance": "Foundational documented sighting; coining of the term 'Batsquatch'", "source": "Tacoma News Tribune (C. R. Roberts), April 1994" },
+      { "date": "1994-04", "event": "Reporter C. R. Roberts coins the name 'Batsquatch' in the Tacoma News Tribune", "significance": "Anchors the cryptid's name in print", "source": "Tacoma News Tribune" }
+    ],
+    "modern_era": "Batsquatch remains a regional cryptid known mainly through tabloid retellings, cryptid podcasts, and tourism marketing in Washington State. There is no scientific investigation, and reports are sparse compared to Bigfoot in the same region. A craft-beer brand sharing the name has further cemented the cryptid in regional pop culture."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 5,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1994", "latest": "2026" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "batsquatch-sighting-1994-canfield",
+        "name": "Brian Canfield encounter",
+        "date": { "value": "1994-04-16", "precision": "approximate" },
+        "location": {
+          "description": "Remote forest road south of Mount Rainier, Pierce County",
+          "country": "United States",
+          "region": "Washington",
+          "locality": "Pierce County",
+          "coordinates": { "latitude": 46.95, "longitude": -122.2, "precision": "approximate" }
+        },
+        "witnesses": { "count": 1, "types": ["Local resident (18-year-old Brian Canfield)"], "credibility_factors": ["Immediate report to family and local press", "Consistent retelling over the following decades"] },
+        "description": "Driving home alone at night through wooded country in Pierce County, Brian Canfield's pickup truck reportedly stalled on a remote road. He described a roughly nine-foot tall winged creature with blue fur, a wolf-like muzzle, sharp teeth, yellow eyes, and large leathery wings landing in front of his vehicle. After several minutes the creature took off and flew away; the truck then started normally. Canfield drove home and reported the incident; the story was carried by the Tacoma News Tribune, where reporter C. R. Roberts coined the name 'Batsquatch'.",
+        "conditions": { "time_of_day": "Night", "duration": "Several minutes" },
+        "credibility": { "rating": "low", "factors": ["Single witness", "No physical evidence", "Coverage primarily in regional newspaper and cryptid press"], "notes": "The defining and most widely reported Batsquatch encounter." },
+        "sources": ["Tacoma News Tribune (C. R. Roberts), April 1994", "Cryptid encyclopedias (Coleman & Clark, others)"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "batsquatch-evidence-news-tribune",
+        "type": "newspaper article",
+        "name": "Tacoma News Tribune coverage of the Canfield encounter",
+        "date": "1994-04",
+        "description": "Local newspaper article by reporter C. R. Roberts describing Brian Canfield's encounter and coining the term 'Batsquatch'.",
+        "status": "unverified",
+        "analysis": "The primary source for the modern Batsquatch legend. No corroborating physical evidence accompanied the report.",
+        "source": "Tacoma News Tribune, April 1994"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Volcanic / interdimensional cryptid",
+        "description": "Batsquatch belongs to the broader winged-humanoid cryptid type associated with major geological or industrial sites; some cryptid writers tie its emergence to the energy of the Mount St. Helens eruption.",
+        "proponents": ["Cryptid bloggers and authors"],
+        "evidence_cited": ["Geographic association with Mount St. Helens", "Reported vehicle interference echoing Mothman accounts"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Misidentification",
+        "description": "The Canfield report and similar accounts may reflect misidentification of large birds (great horned owls, golden eagles) at night, possibly compounded by fatigue and the influence of pop-culture cryptid imagery.",
+        "proponents": ["Skeptical writers on Pacific Northwest cryptids"],
+        "evidence_cited": ["Single-witness, low-light reports", "Known large nocturnal raptors in the region", "Cultural priming via Mothman and Bigfoot"]
+      },
+      {
+        "name": "Folkloric construct",
+        "description": "Batsquatch is best understood as a regional modern legend reinforced by media and tourism, not as a biological candidate.",
+        "proponents": ["Folklorists of contemporary legend"],
+        "evidence_cited": ["Limited number of underlying reports", "Heavy presence in pop culture relative to actual sighting record"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Pacific Northwest contemporary cryptid folklore"
+      ],
+      "stories": [
+        "Brian Canfield encounter (1994)",
+        "Post-1980 Mount St. Helens flying-creature stories"
+      ],
+      "beliefs": "Treated locally as a quirky regional cryptid, often invoked in tourism, brewery branding, and cryptid media."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Loren Coleman & Jerome Clark, Cryptozoology A to Z (1999) — entry for Batsquatch"
+      ],
+      "film_tv": [
+        "Mountain Monsters: 'Batsquatch' episode (Destination America, 2010s)"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Rogue Ales Batsquatch Hazy IPA (Oregon brewery branding)",
+        "Local Mount St. Helens / Mount Rainier tourism material"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Loren Coleman", "affiliation": "International Cryptozoology Museum", "contribution": "Catalogued Batsquatch in cryptid encyclopedias", "period": "1990s–present" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "No active scientific investigation. The phenomenon is documented primarily in cryptid media and local press archives."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "cryptidz-batsquatch", "type": "website", "title": "Batsquatch", "publication": "Cryptid Wiki (Fandom)", "url": "https://cryptidz.fandom.com/wiki/Batsquatch", "accessed": "2026-05-07" },
+    { "id": "tacoma-news-tribune-1994", "type": "news", "title": "Article on Brian Canfield's encounter (coining 'Batsquatch')", "authors": ["C. R. Roberts"], "publication": "Tacoma News Tribune", "date": "1994-04" },
+    { "id": "coleman-clark-1999", "type": "book", "title": "Cryptozoology A to Z: The Encyclopedia of Loch Monsters, Sasquatch, Chupacabras, and Other Authentic Mysteries of Nature", "authors": ["Loren Coleman", "Jerome Clark"], "publication": "Simon & Schuster", "date": "1999", "isbn": "978-0684856025" }
+  ]
 }
